@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.promotion__item {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+.promotion__item.show {
+    display: block;
+}
+
+.bg-black {
+    color: #fff;
+    background-color: #000;
+}
+
+.bg-brown {
+    color: #fff;
+    background-color: brown;
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: rgb(0, 240, 240);
+}
+
+.banner img {
+    width: 100%;
+    height: calc(100vh - 51px);
+    object-fit: cover;
+}
